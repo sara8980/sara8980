@@ -1,0 +1,78 @@
+
+.LogIn {
+    background-color: #E8E7E6;
+    // margin-top: 20%;
+    // margin-left: 50%;
+    // background-image: url('../../../public/pictures/רקע.png');\
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+
+    .point {
+        color: #E8E7E6;
+    }
+
+    .login-signup {
+        cursor: pointer;
+        color: rgb(73, 131, 138) !important;
+        text-decoration: underline !important;
+        text-decoration-color: rgb(52, 88, 92) !important;
+        margin-left: 33%;
+    }
+
+    .h3 {
+        color: #44afa8;
+        // margin-bottom: 20px;
+        margin-top: 100px;
+        margin-left: 47%;
+    }
+
+
+    .input {
+        border: 1.5px solid #000;
+        border-radius: 20px !important;
+        padding: 10px !important;
+        width: 40% !important;
+        margin: 10px;
+        margin-top: 30px !important;
+        margin-bottom: 0px;
+        background-color: #E8E7E6 !important;
+    }
+
+    .is-invalid {
+        border: 1.5px solid red;
+    }
+
+    .error_message {
+        margin-left: 13%;
+    }
+
+    .message {
+        margin-left: 15%;
+    }
+
+    button {
+        border: 0;
+        border-radius: 20px;
+        padding: 10px;
+        width: 40%;
+        margin: 10px;
+        margin-bottom: 0%;
+        background-color: #479396;
+        color: #fff;
+        font-size: large;
+        margin-top: 30px;
+
+        &:hover {
+            background-color: darken(#477979, 10%); // Darken button color on hover
+        }
+    }
+
+    form {
+        margin-top: 7%;
+        margin-left: 40%;
+    }
+}
